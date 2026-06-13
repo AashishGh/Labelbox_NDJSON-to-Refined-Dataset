@@ -2,6 +2,10 @@
 
 A complete Python pipeline for downloading, processing, and visualizing dental pathology segmentation masks from Labelbox-annotated panoramic X-rays.
 
+To run the project, 
+- First replace annotations.ndjson with actual file.
+- And create a .env file(as per .env_Sample and add your API key) in the project directory and do the following sequentially.
+
 ## Project Structure
 - `annotations.ndjson` — Place your ndjson file contents here obtained from labelbox after completion of annotation.
 - `download_masks_with_classes.py` — Download per-class masks from Labelbox with class labels in filenames.
