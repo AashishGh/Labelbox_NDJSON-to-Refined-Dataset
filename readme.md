@@ -4,7 +4,7 @@ A complete Python pipeline for downloading, processing, and visualizing dental p
 
 To run the project, 
 - First replace annotations.ndjson with actual file.
-- And create a .env file(as per .env_Sample and add your API key) in the project directory and do the following sequentially.
+- And create a .env file(as per .env_Sample and add your API key) in the project directory and run the following python files sequentially.
 
 ## Project Structure
 - `annotations.ndjson` — Place your ndjson file contents here obtained from labelbox after completion of annotation.
